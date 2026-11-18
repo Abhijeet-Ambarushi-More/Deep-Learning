@@ -1,0 +1,11 @@
+sentence = "food was not good"
+# Timestep    1   2   3   4
+# Token       1   2   5   3
+# Embedding   [0.5,0.8]  [0.7,0.9] [0.3,0.6] [0.7,0.4]
+
+words = sentence.split()
+
+print("Actual setence is  : ", sentence)
+
+for index, word in enumerate(words):
+    print("Timestep : ",index+1," : ",word)
